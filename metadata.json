@@ -1,0 +1,5 @@
+{
+  "name": "舆论模拟器 (EchoChamber)",
+  "description": "基于群体智能和社会学博弈的舆论模拟器，用于生成具有引导性的社交媒体叙事。",
+  "requestFramePermissions": []
+}
