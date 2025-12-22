@@ -12,18 +12,21 @@
           extend: {
             fontFamily: {
               sans: ['"Inter"', '"Noto Sans SC"', 'sans-serif'],
-              mono: ['"JetBrains Mono"', 'monospace'],
+              mono: ['"JetBrains Mono"', 'monospace']
             },
             colors: {
               gray: {
-                850: '#1f2937',
-                900: '#111827',
-                925: '#0f1420',
-                950: '#030712',
+                50: '#f9fafb',
+                100: '#f3f4f6',
+                200: '#e5e7eb',
+                300: '#d1d5db',
+                400: '#9ca3af',
+                500: '#6b7280',
+                600: '#4b5563',
+                700: '#374151',
+                800: '#1f2937',
+                900: '#111827'
               }
-            },
-            backgroundImage: {
-              'grid-pattern': "linear-gradient(to right, #1f2937 1px, transparent 1px), linear-gradient(to bottom, #1f2937 1px, transparent 1px)",
             }
           }
         }
@@ -31,12 +34,12 @@
     </script>
     <style>
       body {
-        background-color: #030712;
-        color: #e5e7eb;
+        background-color: #f3f4f6;
+        color: #1f2937;
         background-image: 
-            radial-gradient(circle at 50% 0%, #111827 0%, #030712 60%),
-            linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-            linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+            radial-gradient(circle at 50% 0%, #e5e7eb 0%, #f3f4f6 60%),
+            linear-gradient(to right, rgba(0, 0, 0, 0.02) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(0, 0, 0, 0.02) 1px, transparent 1px);
         background-size: 100% 100%, 40px 40px, 40px 40px;
       }
 
@@ -48,11 +51,11 @@
         background: transparent; 
       }
       ::-webkit-scrollbar-thumb {
-        background: #374151; 
+        background: #cbd5e1; 
         border-radius: 3px;
       }
       ::-webkit-scrollbar-thumb:hover {
-        background: #4b5563; 
+        background: #94a3b8; 
       }
     </style>
   <script type="importmap">
